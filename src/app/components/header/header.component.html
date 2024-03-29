@@ -1,0 +1,6 @@
+<span class="material-icons" (click)="navIsVisiable = !navIsVisiable">
+    menu
+</span>
+<div class="title">{{ global.pageTitle }}</div>
+<a routerLink="/"><span class="material-icons">settings</span></a>
+<div class="header-nav" *ngIf="navIsVisiable">menu</div>

@@ -1,0 +1,45 @@
+@import "angular";
+.poll-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  margin-bottom: 40rem;
+}
+.poll-item {
+  padding: 23rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+  background: var(--bg-blue);
+  border-radius: 15rem;
+  &:nth-child(even) {
+    background: var(--bg-orange);
+  }
+  &:nth-child(even) h5,
+  &:nth-child(even) span {
+    color: var(--c-orange);
+  }
+  &:nth-child(even) p {
+    color: rgba(163, 122, 122, 0.7);
+  }
+}
+.poll-title {
+  font-weight: 400;
+  font-size: 16rem;
+  color: var(--c-secondary);
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+}
+.poll-desc {
+  font-weight: 400;
+  font-size: 12rem;
+  color: rgba(64, 53, 114, 0.5);
+}
+.material-icons {
+  color: var(--c-secondary);
+}
+
+.arrows-icons {
+  display: flex;
+  align-items: center;
+}

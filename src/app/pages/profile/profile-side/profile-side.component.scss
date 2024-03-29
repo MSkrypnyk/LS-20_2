@@ -1,0 +1,40 @@
+@import 'angular';
+
+:host {
+    padding-top: 30rem;
+    padding-bottom: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+}
+
+.side-title {
+font-weight: 500;
+font-size: 14rem;
+color: var(--c-title);
+margin-bottom: 8rem;
+}
+
+.side-skills {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+& p {
+    padding: 8rem 10rem;
+    border-radius: 8rem;
+    font-weight: 500;
+font-size: 12rem;
+}
+}
+
+.skills-strong {
+    color: var(--c-green);
+    background: var( --bg-green);
+   
+}
+
+.skills-weak{
+    color: #ff7e73;
+    background: var( --bg-orange);
+}

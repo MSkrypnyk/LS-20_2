@@ -1,0 +1,28 @@
+.progress-title {
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+  font-weight: 300;
+  font-size: 18rem;
+  color: var(--c-title);
+  & span {
+    font-weight: 400;
+    color: var(--c-pink);
+  }
+}
+
+.progress-segment {
+  background: var(--bg-pink);
+  border-radius: 5rem;
+  height: 8rem;
+  width: 100%;
+  position: relative;
+  margin-bottom: 40rem;
+  & span {
+    background: var(--c-pink);
+    height: 4rem;
+    border-radius: inherit;
+    top: 2rem;
+    left: 2rem;
+    position: absolute;
+  }
+}

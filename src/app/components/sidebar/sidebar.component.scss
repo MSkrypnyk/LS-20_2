@@ -1,0 +1,14 @@
+@import "angular";
+:host {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30rem;
+}
+
+.material-icons {
+  color: var(--c-icon);
+}
+
+.active-icon {
+  color: var(--c-icon-active);
+}

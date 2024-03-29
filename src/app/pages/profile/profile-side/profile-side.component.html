@@ -1,0 +1,16 @@
+<div class="side-strong">
+  <h6 class="side-title">Strong side:</h6>
+  <div class="side-skills">
+    <p class="skills-strong" *ngFor="let document of strongSkills">
+      {{ document.skill }}
+    </p>
+  </div>
+</div>
+<div class="side-weak">
+  <h6 class="side-title">Weak side:</h6>
+  <div class="side-skills">
+    <p class="skills-weak" *ngFor="let document of weakSkills">
+      {{ document.skill }}
+    </p>
+  </div>
+</div>

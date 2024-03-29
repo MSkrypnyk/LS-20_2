@@ -1,0 +1,24 @@
+@import "angular";
+
+.title {
+  margin-bottom: 15rem;
+  margin-top: 26rem;
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(152rem, 1fr));
+  gap: 10rem;
+}
+
+.news-item {
+  font-weight: 500;
+  font-size: 12rem;
+  box-shadow: 0 15px 25px 0 rgba(115, 78, 133, 0.15);
+  background: var(--bg-gradient-pink);
+  border-radius: 15rem;
+  padding: 20rem 30rem 22rem 20rem;
+  &:nth-child(even) {
+    background: var(--bg-gradient-green);
+  }
+}

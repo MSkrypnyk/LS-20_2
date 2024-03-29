@@ -1,0 +1,6 @@
+<img [src]="imageSrc" alt="user">
+<div class="user" *ngFor="let document of user">
+    <h4 class="user-name">{{document.name}}</h4>
+    <p class="user-profession">{{document.profession}}</p>
+    <a class="user-change" routerLink="/profile">Change profile</a>
+</div>

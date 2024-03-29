@@ -1,0 +1,16 @@
+<div class="poll-list">
+  <div class="poll-item" *ngFor="let document of poll">
+    <span class="material-icons"> {{ document.icons }} </span>
+    <div class="poll-info">
+      <h5 class="poll-title">{{ document.title }}</h5>
+      <p class="poll-desc">
+        {{ document.desc }}
+      </p>
+    </div>
+    <div class="arrows-icons">
+      <span class="material-icons">
+        navigate_next
+      </span>
+    </div>
+  </div>
+</div>

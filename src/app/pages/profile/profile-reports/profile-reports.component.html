@@ -1,0 +1,12 @@
+<h3 class="title">My Reports:</h3>
+<div class="reports-list">
+    <div class="reports-item" *ngFor="let document of reports">
+        <span class="material-icons">
+            {{ document.icons }}
+        </span>
+        <h5>{{ document.title }}</h5>
+        <p>
+            {{ document.desc }}
+        </p>
+    </div>
+</div>

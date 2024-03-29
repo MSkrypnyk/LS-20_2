@@ -1,0 +1,45 @@
+@import "angular";
+
+.title {
+  margin-top: 40rem;
+  margin-bottom: 15rem;
+}
+
+.tasks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(98px, 1fr));
+  gap: 10rem;
+}
+.tasks-item {
+  padding: 12rem 12rem 8rem 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 18rem;
+  justify-content: space-between;
+  border-radius: 15rem;
+  background: var(--bg-blue);
+  font-weight: 400;
+  font-size: 10rem;
+  color: var(--c-blue);
+  &:nth-child(2) {
+    background: var(--bg-orange);
+    color: var(--c-orange);
+  }
+  &:nth-child(3) {
+    background: var(--bg-green);
+    color: var(--c-green);
+  }
+  &:nth-child(2) span {
+    color: var(--c-orange-second);
+  }
+
+  &:nth-child(3) span {
+    color: var(--c-green);
+  }
+
+  & span {
+    font-weight: 500;
+    font-size: 24rem;
+    color: var(--c-secondary);
+  }
+}

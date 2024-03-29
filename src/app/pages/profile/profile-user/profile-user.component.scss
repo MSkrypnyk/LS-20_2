@@ -1,0 +1,30 @@
+@import "angular";
+
+:host {
+  padding-top: 26rem;
+  display: flex;
+  gap: 30rem;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 16rem;
+  color: var(--c-title);
+  margin-bottom: 4rem;
+}
+
+.user-profession {
+  font-weight: 400;
+  font-size: 14rem;
+  color: rgba(89, 80, 133, 0.6);
+  margin-bottom: 11rem;
+}
+
+.user-change {
+  font-weight: 400;
+  font-size: 12rem;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--c-title);
+}
